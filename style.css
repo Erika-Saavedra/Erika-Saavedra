@@ -60,12 +60,20 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(0,0,0,0.7);
+  #background: rgba(0,0,0,0.7);
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 15px 30px;
+  padding: 25px 30px;
+  background: transparent;
+  transition: all 0.3s ease;
   }
-
+/* estado cuando haces scroll */
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 15px 30px;
+  backdrop-filter: blur(10px);
+}
 .logo {
   font-weight: bold;
 }
