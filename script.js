@@ -15,7 +15,7 @@ window.addEventListener("scroll", () => {
 });
 
 function cambiarIdioma(idioma) {
-  const elementos = document.querySelectorAll("[data-es]");
+  const elementos = document.querySelectorAll("[data-en]");
 
   elementos.forEach(el => {
     el.textContent = el.getAttribute(`data-${idioma}`);
