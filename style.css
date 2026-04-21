@@ -1,8 +1,26 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: #0b2e1f; /* verde oscuro */
+    background-color: #0b2e1f;
     color: white;
+}
+
+/* LANGUAGE SWITCH */
+.lang-switch {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 20;
+}
+
+.lang-switch button {
+    background: #ffeb3b;
+    border: none;
+    padding: 6px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 /* NAVBAR */
@@ -56,9 +74,9 @@ nav a {
 }
 
 .name {
-    font-family: 'Pacifico', cursive; /* estilo escritura a mano */
+    font-family: 'Pacifico', cursive;
     font-size: 80px;
-    color: #ffeb3b; /* amarillo */
+    color: #ffeb3b;
     margin: 0;
 }
 
@@ -86,6 +104,14 @@ nav a {
 
 .project-card {
     position: relative;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease;
+}
+
+.project-card.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .project-card img {
@@ -100,8 +126,9 @@ nav a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0,0,0,0.5);
-    padding: 10px 20px;
+    background: rgba(0,0,0,0.55);
+    padding: 12px 20px;
     border-radius: 8px;
     font-size: 20px;
+    font-weight: bold;
 }
