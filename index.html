@@ -10,12 +10,19 @@
 
 <body>
 
+    <!-- LANGUAGE SWITCH -->
+    <div class="lang-switch">
+        <button data-lang="en">EN</button>
+        <button data-lang="fr">FR</button>
+        <button data-lang="es">ES</button>
+    </div>
+
     <!-- NAVBAR -->
     <nav>
         <ul>
-            <li><a href="#about">About me / À propos</a></li>
-            <li><a href="#cv">CV</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about" class="t-about">About me</a></li>
+            <li><a href="cv.pdf" target="_blank" class="t-cv">CV</a></li>
+            <li><a href="#contact" class="t-contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -24,33 +31,34 @@
         <div class="overlay"></div>
         <div class="hero-content">
             <h1 class="name">Erika</h1>
-            <h2 class="subtitle">Geomatics Professional / Professionnelle en géomatique</h2>
+            <h2 class="subtitle t-subtitle">Geomatics Professional</h2>
         </div>
     </header>
 
     <!-- PROJECTS SECTION -->
     <section class="projects">
-        <h2>Projects / Projets</h2>
+        <h2 class="t-projects">Projects</h2>
 
         <div class="project-grid">
 
             <div class="project-card">
-                <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=900&q=60" alt="Master Essay">
-                <div class="project-title">Master Essay</div>
+                <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=900&q=60">
+                <div class="project-title t-p1">Application in Crime Analysis</div>
             </div>
 
             <div class="project-card">
-                <img src="https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?auto=format&fit=crop&w=900&q=60" alt="Crime Management">
-                <div class="project-title">Crime Management</div>
+                <img src="https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?auto=format&fit=crop&w=900&q=60">
+                <div class="project-title t-p2">Crime Management</div>
             </div>
 
             <div class="project-card">
-                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=60" alt="Landsat Remote Sensing">
-                <div class="project-title">Landsat Remote Sensing</div>
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=60">
+                <div class="project-title t-p3">Landsat Remote Sensing</div>
             </div>
 
         </div>
     </section>
 
+    <script src="script.js"></script>
 </body>
 </html>
