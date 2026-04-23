@@ -65,5 +65,10 @@ document.querySelectorAll(".lang-switch button").forEach(btn => {
             const el = document.querySelector("." + key);
             if (el) el.textContent = translations[lang][key];
         }
+        // Cambiar link del About Me según idioma
+        const aboutLink = document.getElementById("about-link");
+        if (lang === "en") aboutLink.href = "about.html";
+        if (lang === "fr") aboutLink.href = "about-fr.html";
+        if (lang === "es") aboutLink.href = "about-es.html";
     });
 });
