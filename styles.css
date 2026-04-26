@@ -163,3 +163,11 @@ nav a {
     color: #f2f2f2; /* mismo color que tu nombre */
     font-weight: 500;
 }
+
+@media (max-width: 600px) {
+    .project-title {
+        top: auto;
+        bottom: 10px;
+        transform: translateX(-50%);
+    }
+}
