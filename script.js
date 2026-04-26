@@ -35,7 +35,7 @@ const translations = {
         "t-p1": "Application in Crime Analysis",
         "t-p2": "Crime Management",
         "t-p3": "Landsat Remote Sensing",
-        "t-keywords": "GIS • Remote Sensing • Spatial Analysis • Monitoring Land"
+        "t-keywords": "• GIS •  Remote Sensing  • Spatial Analysis  • Monitoring Land"
     },
     fr: {
         "t-about": "À propos",
@@ -46,7 +46,7 @@ const translations = {
         "t-p1": "Application en analyse criminelle",
         "t-p2": "Gestion du crime",
         "t-p3": "Télédétection Landsat",
-        "t-keywords": "SIG • Télédétection • Analyse spatiale • Agriculture de précision"
+        "t-keywords": "• SIG  • Télédétection  • Analyse spatiale  • Agriculture de précision"
     },
     es: {
         "t-about": "Sobre mí",
@@ -57,7 +57,7 @@ const translations = {
         "t-p1": "Aplicación en análisis del crimen",
         "t-p2": "Gestión del crimen",
         "t-p3": "Teledetección con Landsat",
-        "t-keywords": "SIG • Teledetección • Análisis espacial • Agricultura de precisión"
+        "t-keywords": "• SIG  • Teledetección  • Análisis espacial  • Agricultura de precisión"
 
     }
 };
