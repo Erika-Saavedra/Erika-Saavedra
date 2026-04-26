@@ -32,7 +32,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    verflow: hidden; /* IMPORTANTE */
+    overflow: hidden; /* IMPORTANTE */
 }
 .hero-content {
     text-align: center;
