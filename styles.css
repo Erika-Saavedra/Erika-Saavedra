@@ -120,10 +120,10 @@ nav a {
 
 .project-card img {
     width: 100%;
-    height: 260px;
+    height: auto;
+    max-height: 260px;
     object-fit: cover;
-    border-radius: 10px;
-}
+   }
 
 .project-title {
     position: absolute;
@@ -165,9 +165,38 @@ nav a {
 }
 
 @media (max-width: 600px) {
-    .project-title {
-        top: auto;
-        bottom: 10px;
-        transform: translateX(-50%);
+    .main-container {
+        padding: 0 15px;
+    }
+    .project-grid {
+        grid-template-columns: 1fr; /* una columna en móvil */
+        gap: 20px;
+    }
+    .project-card img {
+        max-height: 180px;
+    }
+    .name {
+        font-size: 32px;
+    }
+    .subtitle {
+        font-size: 16px;
     }
 }
+
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;   /* evita imágenes gigantes */
+    display: block;
+    margin: 0 auto;     /* centra las imágenes */
+    border-radius: 10px;
+}
+
+/* CONTENEDOR GENERAL PARA CENTRAR TODO */
+.main-container {
+    max-width: 1200px;   /* evita que el contenido se estire demasiado */
+    margin: 0 auto;      /* centra todo */
+    padding: 0 20px;     /* espacio lateral */
+}
+
