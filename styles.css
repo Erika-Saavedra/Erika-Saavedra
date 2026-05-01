@@ -164,23 +164,24 @@ nav a {
     font-weight: 500;
 }
 
-@media (max-width: 600px) {
-    .main-container {
-        padding: 0 15px;
-    }
+@media (max-width: 900px) {
     .project-grid {
-        grid-template-columns: 1fr; /* una columna en móvil */
-        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
     }
+}
+
+@media (max-width: 600px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
     .project-card img {
         max-height: 180px;
     }
-    .name {
-        font-size: 32px;
-    }
-    .subtitle {
-        font-size: 16px;
-    }
+}
+
+h1, h2, h3, p {
+    text-align: center;
 }
 
 
