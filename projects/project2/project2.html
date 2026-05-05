@@ -1,88 +1,115 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project | Crime Analysis</title>
+
     <link rel="stylesheet" href="../../styles.css">
     <link rel="stylesheet" href="project2.css">
 </head>
-  
+
 <body>
-    
- <!-- LANGUAGE SWITCH -->
+
+<!-- LANGUAGE SWITCH -->
 <div class="lang-switch">
     <button data-lang="en">EN</button>
     <button data-lang="fr">FR</button>
     <button data-lang="es">ES</button>
 </div>
-    <!-- BACK BUTTON -->
-    <a href="../../index.html" class="back-btn">← Back/a>
 
-    <section class="project-page">
+<!-- BACK BUTTON -->
+<a href="../../index.html" class="back-btn">← Back</a>
 
-        <h1 class="pp-title t-p1">Residential burglary in Boston. Spatiotemporal analysis and geovisualization using R (2015-2022)</h1>
+<section class="project-page">
 
-        <h2 class="pp-subtitle">Context</h2>
-        <p> class="t-context-text">
-            The topic of this project is based on the fact that crime is an issue that is becoming increasingly important today. In my home country, I have observed that this situation is worsening, and I also have the impression that a similar trend is occurring in Montréal.
+    <!-- TITLE -->
+    <h1 class="pp-title t-title">
+        Residential burglary in Boston. Spatiotemporal analysis and geovisualization using R (2015–2022)
+    </h1>
 
-At first, I wanted to work with data from Montréal, but I could not find sufficiently complete open datasets to carry out this type of analysis. I therefore chose to work on the city of Boston, where I have previously lived. My familiarity with the city helps me better understand the context and the results.
+    <!-- CONTEXT -->
+    <h2 class="pp-subtitle t-context-title">Context</h2>
+    <p class="t-context-text">
+        The topic of this project is based on the fact that crime is an issue that is becoming increasingly important today.
+    </p>
 
-In this project, I focus on residential burglaries between 2015 and 2022 using spatial and temporal analysis methods. The idea is to determine whether some areas are more affected than others, how the situation evolves over time, and to demonstrate how geomatics tools can help analyze this type of problem.
-        </p>
-        
-        <h2 class="pp-subtitle">Objetives</h2>
-        <p>class="t-context-text">
-          Identifier les schémas criminels dans la ville de Boston, prévoir les taux de criminalité, puis prédire si un crime se produira ou non.
-          The objective of this project is to use geospatial data and the R programming language to analyze residential crime in the city of Boston between 2015 and 2022. Through spatial analysis techniques and cartographic visualization, the goal is to identify patterns, concentrations, and temporal trends in burglary incidents.
+    <!-- OBJECTIVES -->
+    <h2 class="pp-subtitle t-objectives-title">Objectives</h2>
+    <p class="t-objectives-text">
+        The objective is to use geospatial data and R to analyze residential burglary patterns in Boston (2015–2022).
+    </p>
 
-Furthermore, this work aims to demonstrate that the use of open-source tools such as R represents an effective alternative for analyzing and managing urban issues, particularly in the context of urban planning and public safety.
-        </p>
+    <!-- TOOLS -->
+    <h2 class="pp-subtitle t-tools-title">Tools</h2>
 
-<h2 class="pp-subtitle">Tools</h2>
-<p>class="t-context-text">
-  • Language R 
-  <button class="toggle-btn">+</button>
-  <span class="hidden-text">libraries: geopandas, Matplotlib, folium, geoplot </span>
-  <br>
-  • Environment: RStudio<br>
-  • Opensource Data (geospatial and attribute data):
-  <button class="toggle-btn">+</button>
-  <span class="hidden-text">
-  <br>
-    - Geospatial data of urban boundaries (Harvard University)<br>
-    - Road network geospatial data of Boston (Analyze Boston = https://data.boston.gov/) <br>
-    - Crime data (2015–2022) (Analyze Boston = https://data.boston.gov/)<br>
-  </span>
-</p>class="t-context-text">
-  <h2 class="pp-subtitle">Tasks</h2>
-<p>class="t-context-text">
-     • Data processing : 
-     <button class="toggle-btn">+</button>
-     <span class="hidden-text">- Data import and filtering, - Cleaning and preprocessing - Conversion from structured CSV data to geospatial data </span>
-     <br>
-     • Spatial analysis:
-            <button class="toggle-btn">+</button>
-  <span class="hidden-text">- Kernel Density Estimation (KDE), - Network Kernel Density Estimation (NKDE), - Hotspot and cold spot analysis, - Spatial autocorrelation analysis (LISA) </span><br>
-     • Visualization and cartography :<button class="toggle-btn">+</button>
-  <span class="hidden-text"> Thematic map creation, Spatial cluster visualization, Mapping of crime patterns, - Temporal analysis and animation, - Analysis of crime evolution between 2015 and 2022, -Animated visualization of spatial changes over time<br>
-        </p>
-  <h2 class="pp-subtitle">Results</h2>      
- <img class="pp-img" src="animationLISA.gif">
- <img class="pp-img" src="animationKDE.gif">
-        
-        <h2 class="pp-subtitle">Applications</h2>
-        <p>class="t-context-text">
-            This type of analysis is not limited to crime studies. The techniques used (KDE, LISA, hotspot analysis) are transferable to other fields, such as:<br>
-            • Public transportation: route analysis and network optimization (e.g., Waze)<br>
-            • Retail / geomarketing: identifying the most profitable store locations<br>
-            • Risk management: monitoring pollution and identifying critical zones
-        </p>
+    <p>
 
-    </section>
+        • Language R
+        <button class="toggle-btn">+</button>
+        <span class="hidden-text">
+            R libraries: sf, spatstat, tmap, ggplot2, dplyr, leaflet
+        </span>
 
-    <script src="../../script.js"></script>
-    <script src="project2.js"></script>
+        <br><br>
+
+        • Environment: RStudio<br><br>
+
+        • Open data (geospatial + attribute)
+        <button class="toggle-btn">+</button>
+        <span class="hidden-text">
+            - Urban boundaries (Harvard University)<br>
+            - Road network (Boston Open Data)<br>
+            - Crime data 2015–2022 (Analyze Boston)
+        </span>
+
+    </p>
+
+    <!-- TASKS -->
+    <h2 class="pp-subtitle t-tasks-title">Tasks</h2>
+
+    <p>
+
+        • Data processing
+        <button class="toggle-btn">+</button>
+        <span class="hidden-text">
+            Data import, cleaning, preprocessing, CSV → geospatial conversion
+        </span>
+
+        <br><br>
+
+        • Spatial analysis
+        <button class="toggle-btn">+</button>
+        <span class="hidden-text">
+            KDE, NKDE, hotspot analysis, LISA spatial autocorrelation
+        </span>
+
+        <br><br>
+
+        • Visualization
+        <button class="toggle-btn">+</button>
+        <span class="hidden-text">
+            Mapping, clustering, temporal analysis, animation (2015–2022)
+        </span>
+
+    </p>
+
+    <!-- RESULTS -->
+    <h2 class="pp-subtitle t-results-title">Results</h2>
+
+    <img class="pp-img" src="animationLISA.gif">
+    <img class="pp-img" src="animationKDE.gif">
+
+    <!-- APPLICATIONS -->
+    <h2 class="pp-subtitle t-applications-title">Applications</h2>
+
+    <p class="t-applications-text">
+        This analysis can be applied to urban planning, retail location optimization, transport systems, and risk management.
+    </p>
+
+</section>
+
+<script src="../../script.js"></script>
+
 </body>
 </html>
