@@ -40,7 +40,7 @@ function switchLanguage(lang) {
 
     // ocultar todos
     document.querySelectorAll(".text-en, .text-fr, .text-es").forEach(el => {
-        el.style.display = "none";
+        el.style.display = "block";
     });
 
     // mostrar idioma activo
