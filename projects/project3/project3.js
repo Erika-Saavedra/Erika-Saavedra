@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    // BOTONES TOGGLE
+    // BOTONES TOGGLE (+)
     const buttons = document.querySelectorAll(".toggle-btn");
 
     buttons.forEach(button => {
@@ -20,5 +20,36 @@ document.addEventListener("DOMContentLoaded", () => {
 
         });
     });
+
+    // 🔹 BOTONES DE IDIOMA
+    const langButtons = document.querySelectorAll(".lang-switch button");
+
+    langButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+            const lang = btn.dataset.lang;
+            switchLanguage(lang);
+        });
+    });
+
+    // 🔹 idioma por defecto
+    switchLanguage("en");
+
+});
+
+function switchLanguage(lang) {
+
+    // ocultar todos
+    document.querySelectorAll(".text-en, .text-fr, .text-es").forEach(el => {
+        el.style.display = "none";
+    });
+
+    // mostrar idioma activo
+    document.querySelectorAll(".text-" + lang).forEach(el => {
+        el.style.display = "block";
+    });
+}
+
+
+
 
 });
