@@ -3,28 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project | Crime Analysis</title>
+    <title>Project | Floods Analysis</title>
     <link rel="stylesheet" href="../../styles.css">
     <link rel="stylesheet" href="project3.css">
 </head>
 
 <body>
+<!-- LANGUAGE SWITCH -->
+<div class="lang-switch">
+    <button data-lang="en">EN</button>
+    <button data-lang="fr">FR</button>
+    <button data-lang="es">ES</button>
+</div>
 
     <!-- BACK BUTTON -->
     <a href="../../index.html" class="back-btn">← Back / Retour / Volver</a>
-
     <section class="project-page">
 
-        <h1 class="pp-title t-p1">Example de suivi des Inondations - Télédetection et l’analyse spatiale</h1>
+    <!-- TITLE -->
+   <h1 class="pp-title t-title">
+    <span class="text-en">Flood monitoring using Landsat </span>
+    <span class="text-fr" style="display:none;">Suivi des Inondations et Télédetection</span>
+    <span class="text-es" style="display:none;">Monitoreo de Inundaciones y teledeteccion</span>
+    </h1> 
+ <!-- CONTEXT -->
+    <h2 class="pp-subtitle">
+    <span class="text-en">Context</span>
+    <span class="text-fr" style="display:none;">Contexte</span>
+    <span class="text-es" style="display:none;">Contexto</span>
+</h2>
+    <p>
+    <span class="text-en">
+    The 2023 the Piura region in Peru was severely affected by flooding, resulting from two climatic situations:<br>1)the El Niño phenomenon, which occurs approximately every 7 years,<br>
+2) The impact of Cyclone Yaku, which occurred between March 13 and March 16 of this year.<br>
+The region has a hot desert climate, with average annual temperatures of 27 and 25 degrees Celsius, and a rainy season from February to May..<br>
+     </span>
+        
+    <span class="text-fr"style="display:none;">
+     L'année 2023, la région de Piura au Pérou a été gravement touchée par des inondations, résultant de deux situations climatiques :<br> 1) le phénomène El Niño, qui se produit environ tous les 7 ans,<br> 2) l'impact du cyclone Yaku, survenu entre le 13 et le 16 mars de cette année.<br>
+     La région présente un climat désertique chaud, avec des températures moyennes annuelles de 27 et 25 degrés Celsius, et une saison des pluies allant de février à mai.<br>
+     </span>
 
-        <h2 class="pp-subtitle">Context</h2>
-        <p>
-            Cette année, la région de Piura au Pérou a été gravement touchée par des inondations, résultant de deux situations climatiques :<br> 1) le phénomène El Niño, qui se produit environ tous les 7 ans,<br> 2) l'impact du cyclone Yaku, survenu entre le 13 et le 16 mars de cette année.<br>
-
-            La région présente un climat désertique chaud, avec des températures moyennes annuelles de 27 et 25 degrés Celsius, et une saison des pluies allant de février à mai.<br>
-
-        </p>
-
+    <span class="text-es"style="display:none;">
+     Este año, la región de Piura en Perú fue gravemente afectada por inundaciones, resultado de dos situaciones climáticas:<br> 1)El fenómeno El Niño, que ocurre aproximadamente cada 7 años,<br>
+2) El impacto del ciclón Yaku, ocurrido entre el 13 y el 16 de marzo de este año.<br> La región presenta un clima desértico cálido, con temperaturas medias anuales de 27 y 25 grados Celsius, y una temporada de lluvias que va de febrero a mayo.
+     </span>
+      </p> 
         <h2 class="pp-subtitle">Objective</h2>
         <p>
            L'objectif principal était de développer une méthodologie pour l'identification des zones inondées en utilisant Python et ses bibliothèques, ainsi que l'imagerie Landsat 8.<br>
