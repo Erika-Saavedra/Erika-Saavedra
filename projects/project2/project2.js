@@ -40,11 +40,11 @@ function switchLanguage(lang) {
 
     // ocultar todos
     document.querySelectorAll(".text-en, .text-fr, .text-es").forEach(el => {
-        el.style.display = "block";
+        el.style.display = "none";
     });
 
     // mostrar idioma activo
     document.querySelectorAll(".text-" + lang).forEach(el => {
-        el.style.display = "inline";
+        el.style.display = "block";
     });
 }
