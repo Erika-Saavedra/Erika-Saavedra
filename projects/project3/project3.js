@@ -48,8 +48,3 @@ function switchLanguage(lang) {
         el.style.display = "block";
     });
 }
-
-
-
-
-});
