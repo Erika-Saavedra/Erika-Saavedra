@@ -79,11 +79,9 @@
 }
 
 .img-caption {
-    display: block;
     width: 100%;
-    text-align: center;
-    font-size: 0.95rem;
-    margin-top: 8px;
-    margin-bottom: 25px;
+    text-align: center !important;
+    display: block;
+    margin: 10px auto 25px auto;
     font-style: italic;
 }
