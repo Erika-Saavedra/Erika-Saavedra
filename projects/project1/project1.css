@@ -79,6 +79,8 @@
 }
 
 .img-caption {
+    display: block;
+    width: 100%;
     text-align: center;
     font-size: 0.95rem;
     margin-top: 8px;
