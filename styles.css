@@ -153,11 +153,11 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 60px;
 
-    max-width: 1100px;
+    max-width: 900px;
     margin: 60px auto;
-    padding: 20px;
+    /*padding: 20px;*/
 }
 
 .keywords {
