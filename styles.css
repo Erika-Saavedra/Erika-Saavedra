@@ -149,9 +149,15 @@ nav a {
     border-radius: 12px;
 }
 
-.about-container,
-.contact-container {
-    margin-top: 40px;
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
 }
 
 .keywords {
