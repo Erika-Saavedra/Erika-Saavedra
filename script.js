@@ -54,9 +54,9 @@ const translations = {
         "t-contact": "Contacto",
         "t-subtitle": "Profesional en geomática",
         "t-projects": "Proyectos",
-        "t-p1": "Aplicación en análisis del crimen",
+        "t-p1": "Visión por computadora para el monitoreo de la fenología de la vid",
         "t-p2": "Monitoreo y predicción de la criminalidad utilizando R",
-        "t-p3": "Visión por computadora para el monitoreo de la fenología de la vid",
+        "t-p3": "Monitoreo de las inundaciones con la ayuda de imagenes de satélite",
         "t-keywords": "• SIG  • Teledetección  • Análisis espacial  • Agricultura de precisión"
 
     }
