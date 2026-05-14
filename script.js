@@ -43,8 +43,8 @@ const translations = {
         "t-contact": "Contact",
         "t-subtitle": "Professionnelle en géomatique",
         "t-projects": "Projets",
-        "t-p1": "Application en analyse criminelle",
-        "t-p2": "Gestion du crime",
+        "t-p1": "Vision par ordinateur pour le suivi de la phénologie de la vigne",
+        "t-p2": "Surveillance et prédiction de la criminalité avec R",
         "t-p3": "Suivi des inondations à l’aide d’images satellitaires",
         "t-keywords": "• SIG  • Télédétection  • Analyse spatiale  • Agriculture de précision"
     },
@@ -55,8 +55,8 @@ const translations = {
         "t-subtitle": "Profesional en geomática",
         "t-projects": "Proyectos",
         "t-p1": "Aplicación en análisis del crimen",
-        "t-p2": "Gestión del crimen",
-        "t-p3": "Monitoreo de inundaciones con imágenes satelitales",
+        "t-p2": "Monitoreo y predicción de la criminalidad utilizando R",
+        "t-p3": "Visión por computadora para el monitoreo de la fenología de la vid",
         "t-keywords": "• SIG  • Teledetección  • Análisis espacial  • Agricultura de precisión"
 
     }
