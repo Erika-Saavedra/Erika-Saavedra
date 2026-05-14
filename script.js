@@ -32,9 +32,9 @@ const translations = {
         "t-contact": "Contact",
         "t-subtitle": "Geomatics Professional",
         "t-projects": "Projects",
-        "t-p1": "Application in Crime Analysis",
-        "t-p2": "Crime Management",
-        "t-p3": "Landsat Remote Sensing",
+        "t-p1": "Computer Vision for grapevine phenology monitoring",
+        "t-p2": "Crime Monitoring and Prediction using R",
+        "t-p3": "Flood monitoring with Satellite Imagery",
         "t-keywords": "• GIS •  Remote Sensing  • Spatial Analysis  • Monitoring Land"
     },
     fr: {
@@ -45,7 +45,7 @@ const translations = {
         "t-projects": "Projets",
         "t-p1": "Application en analyse criminelle",
         "t-p2": "Gestion du crime",
-        "t-p3": "Télédétection Landsat",
+        "t-p3": "Suivi des inondations à l’aide d’images satellitaires",
         "t-keywords": "• SIG  • Télédétection  • Analyse spatiale  • Agriculture de précision"
     },
     es: {
@@ -56,7 +56,7 @@ const translations = {
         "t-projects": "Proyectos",
         "t-p1": "Aplicación en análisis del crimen",
         "t-p2": "Gestión del crimen",
-        "t-p3": "Teledetección con Landsat",
+        "t-p3": "Monitoreo de inundaciones con imágenes satelitales",
         "t-keywords": "• SIG  • Teledetección  • Análisis espacial  • Agricultura de precisión"
 
     }
