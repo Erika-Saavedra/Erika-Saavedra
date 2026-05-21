@@ -64,6 +64,7 @@
 
 .task-list li {
     margin-bottom: 8px;
+    padding-left: 20px;
 }
 /* HIDDEN CONTENT */
 .hidden-text {
