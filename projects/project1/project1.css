@@ -22,11 +22,11 @@
 }
 
 .pp-subtitle1 {
+    font-family: 'Pacifico', cursive;
     font-size: 16px;
     font-weight: 500;
     text-align: left;
     margin: 25px 0 10px 0;
-    color: #ffeb3b;
 }
 
 /* TEXT */
