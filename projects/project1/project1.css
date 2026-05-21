@@ -57,6 +57,14 @@
     font-size: 14px;
 }
 
+.task-list {
+    padding-left: 25px;
+    line-height: 1.6;
+}
+
+.task-list li {
+    margin-bottom: 8px;
+}
 /* HIDDEN CONTENT */
 .hidden-text {
     display: none;
