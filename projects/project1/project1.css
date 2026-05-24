@@ -110,3 +110,14 @@
 .indented-tools {
     padding-left: 30px;
 }
+.gif-container {
+    text-align: center;
+}
+
+.gif-image {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 20px;
+}
+
